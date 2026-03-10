@@ -83,6 +83,8 @@ Paste this into **Jellyfin → Dashboard → General → Custom CSS**
 
 ## 🖼 Theme Showcase
 
+NOTE: Screenshots contain mediabar plugin and others you can find on **[Awesome Jellyfin](https://github.com/awesome-jellyfin/awesome-jellyfin)**
+
 <details open>
 <summary><strong>🔒 Login Screen</strong></summary>
 
