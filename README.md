@@ -51,6 +51,13 @@ The result is an elegant, professional interface that enhances both browsing and
 
 - Unified design language across phone, desktop and TV
 
+## ⚙ Installation
+
+Paste this into Jellyfin → Dashboard → General → Custom CSS
+
+```css
+@import url("https://cdn.jsdelivr.net/gh/ya0903/NetFin@main/netfin.css");
+
 # 🖼 Theme Showcase
 
 🔒Login Screen
