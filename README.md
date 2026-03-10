@@ -53,7 +53,12 @@ The result is an elegant, professional interface that enhances both browsing and
 
 # 🖼 Theme Showcase
 
+🔒Login Screen
+
+<img width="1914" height="916" alt="image" src="https://github.com/user-attachments/assets/69d1e032-e99e-4fdf-af4e-428d7e81252b" />
+
 🏠 Home Interface
+
 <img width="2048" height="978" alt="image" src="https://github.com/user-attachments/assets/5eee060a-0c1d-4ab3-8b64-027251973997" />
 
 🎞 Library View
