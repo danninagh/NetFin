@@ -9,14 +9,13 @@
 
 # 🎬 NetFin Theme for Jellyfin
 
-🎬 NetFin Theme for Jellyfin
 
 A sleek cinematic Jellyfin theme inspired by modern streaming platforms.
 NetFin focuses on immersion, clarity and smooth visual flow while keeping media artwork as the centrepiece of the interface.
 
 Designed for users who want Jellyfin to feel like a premium streaming service.
 
-✨ Overview
+# ✨ Overview
 
 NetFin transforms Jellyfin with:
 
@@ -34,7 +33,7 @@ NetFin transforms Jellyfin with:
 
 The result is an elegant, professional interface that enhances both browsing and playback.
 
-🧩 Key Features
+# 🧩 Key Features
 
 - Modernised home and library layouts
 
@@ -52,7 +51,7 @@ The result is an elegant, professional interface that enhances both browsing and
 
 - Unified design language across phone, desktop and TV
 
-🖼 Theme Showcase
+# 🖼 Theme Showcase
 
 🏠 Home Interface
 <img width="2048" height="978" alt="image" src="https://github.com/user-attachments/assets/5eee060a-0c1d-4ab3-8b64-027251973997" />
@@ -71,7 +70,7 @@ Sidebar
 
 <img width="2048" height="976" alt="image" src="https://github.com/user-attachments/assets/ee968d48-94dd-4ada-ba43-e83533cc9159" />
 
-🙏 Credits & Inspiration
+#🙏 Credits & Inspiration
 
 NetFin is heavily inspired by the incredible work of ElegantFin by lscambo13
 
