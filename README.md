@@ -223,7 +223,16 @@ This add-on hides the default Jellyfin logo and swaps it for your own image in t
 4. Save and refresh Jellyfin
 
 </details>
+<details>
+<summary><strong>Example Home Screen Preview</strong></summary>
 
+<br>
+
+Below is an example of how NetFin looks on the Jellyfin home screen once installed.
+
+<img width="1920" height="915" alt="image" src="https://github.com/user-attachments/assets/5aa445b8-acf0-4c9f-97a2-fa8020ede0c0" />
+
+</details>
 
 ## 🙏 Credits & Inspiration
 
