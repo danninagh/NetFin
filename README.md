@@ -1,8 +1,13 @@
 ███╗   ██╗███████╗████████╗███████╗██╗███╗   ██╗
+
 ████╗  ██║██╔════╝╚══██╔══╝██╔════╝██║████╗  ██║
+
 ██╔██╗ ██║█████╗     ██║   █████╗  ██║██╔██╗ ██║
+
 ██║╚██╗██║██╔══╝     ██║   ██╔══╝  ██║██║╚██╗██║
+
 ██║ ╚████║███████╗   ██║   ██║     ██║██║ ╚████║
+
 ╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚═╝     ╚═╝╚═╝  ╚═══╝
 
 🎬 NetFin Theme for Jellyfin
@@ -16,12 +21,12 @@ Designed for users who want Jellyfin to feel like a premium streaming service.
 
 NetFin transforms Jellyfin with:
 
-• Deep cinematic dark visuals
-• Clean modern layouts
-• Smooth refined hover effects
-• Balanced spacing across all screens
-• Improved readability for titles and metadata
-• Minimal clutter for distraction free browsing
+- Deep cinematic dark visuals
+- Clean modern layouts
+- Smooth refined hover effects
+- Balanced spacing across all screens
+- Improved readability for titles and metadata
+- Minimal clutter for distraction free browsing
 
 The result is an elegant, professional interface that enhances both browsing and playback.
 
