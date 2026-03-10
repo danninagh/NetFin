@@ -22,23 +22,35 @@ Designed for users who want Jellyfin to feel like a premium streaming service.
 NetFin transforms Jellyfin with:
 
 - Deep cinematic dark visuals
+
 - Clean modern layouts
-- Smooth refined hover effects
+
+- Smooth, refined hover effects
+
 - Balanced spacing across all screens
+
 - Improved readability for titles and metadata
-- Minimal clutter for distraction free browsing
+
+- Minimal clutter for distraction-free browsing
 
 The result is an elegant, professional interface that enhances both browsing and playback.
 
 🧩 Key Features
 
 • Modernised home and library layouts
+
 • Smooth poster scaling and hover animations
+
 • Enhanced film and TV show detail pages
+
 • Clean navigation bars and side menus
+
 • Consistent typography across all devices
+
 • Refined buttons and playback controls
+
 • Improved contrast for metadata visibility
+
 • Unified design language across phone, desktop and TV
 
 🖼 Theme Showcase
@@ -62,8 +74,7 @@ Sidebar
 
 🙏 Credits & Inspiration
 
-NetFin is heavily inspired by the incredible work of
-ElegantFin by lscambo13
+NetFin is heavily inspired by the incredible work of ElegantFin by lscambo13
 
 ElegantFin set the benchmark for modern Jellyfin theming by refining layout structure, spacing consistency and UI polish across devices.
 
