@@ -224,6 +224,8 @@ This add-on hides the default Jellyfin logo and swaps it for your own image in t
 3. Paste the CSS **after** your NetFin import  
 4. Save and refresh Jellyfin
 
+NETFIN logo is available in NetFin/assets/netfin-logo
+
 </details>
 <details>
 <summary><strong>Example Home Screen Preview</strong></summary>
