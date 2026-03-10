@@ -37,21 +37,21 @@ The result is an elegant, professional interface that enhances both browsing and
 
 🧩 Key Features
 
-• Modernised home and library layouts
+- Modernised home and library layouts
 
-• Smooth poster scaling and hover animations
+- Smooth poster scaling and hover animations
 
-• Enhanced film and TV show detail pages
+- Enhanced film and TV show detail pages
 
-• Clean navigation bars and side menus
+- Clean navigation bars and side menus
 
-• Consistent typography across all devices
+- Consistent typography across all devices
 
-• Refined buttons and playback controls
+- Refined buttons and playback controls
 
-• Improved contrast for metadata visibility
+- Improved contrast for metadata visibility
 
-• Unified design language across phone, desktop and TV
+- Unified design language across phone, desktop and TV
 
 🖼 Theme Showcase
 
