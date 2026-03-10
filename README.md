@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="YOUR_BANNER_GIF_LINK_HERE" alt="NetFin animated banner" width="100%" />
+  <img src="<img width="1070" height="559" alt="112f942f1b8c81f2785f5446ef8026bd" src="https://github.com/user-attachments/assets/d95e4b4c-a78b-42c8-a040-e158c1ed04fe" />" width="100%" />
 </p>
 
 ```text
