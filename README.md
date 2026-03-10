@@ -37,6 +37,7 @@ The result is an elegant, professional interface that enhances both browsing and
 • Unified design language across phone, desktop and TV
 
 🖼 Theme Showcase
+
 🏠 Home Interface
 <img width="2048" height="978" alt="image" src="https://github.com/user-attachments/assets/5eee060a-0c1d-4ab3-8b64-027251973997" />
 
@@ -46,10 +47,12 @@ The result is an elegant, professional interface that enhances both browsing and
 
 
 🎬 Movie Detail Page
+
 <img width="2048" height="973" alt="image" src="https://github.com/user-attachments/assets/192bd752-be1a-462d-a9f2-088f61940f4a" />
 <img width="2048" height="981" alt="image" src="https://github.com/user-attachments/assets/93e86e2a-cc57-4af8-9eee-288b975c6ed9" />
 
 Sidebar
+
 <img width="2048" height="976" alt="image" src="https://github.com/user-attachments/assets/ee968d48-94dd-4ada-ba43-e83533cc9159" />
 
 🙏 Credits & Inspiration
