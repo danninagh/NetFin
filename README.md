@@ -137,10 +137,12 @@ Paste this into **Jellyfin → Dashboard → General → Custom CSS**
 
 These are optional tweaks you can paste **after** the main NetFin import in Jellyfin’s **Custom CSS** box.
 
-### Replace the Jellyfin logo with a custom logo
+<details>
+<summary><strong>Replace the Jellyfin logo with a custom logo</strong></summary>
 
-This add-on hides the default Jellyfin logo and swaps it for your own image in the header area.  
-It follows the same approach used in the attached Matrix/AhmedMedia theme, where the default header logo is hidden and a custom replacement is injected in its place. 
+<br>
+
+This add-on hides the default Jellyfin logo and swaps it for your own image in the header area.
 
 ```css
 /* Paste this after the NetFin import */
@@ -207,6 +209,8 @@ It follows the same approach used in the attached Matrix/AhmedMedia theme, where
 2. Replace `PASTE-YOUR-LOGO-URL-HERE` with the direct image link  
 3. Paste the CSS **after** your NetFin import  
 4. Save and refresh Jellyfin
+
+</details>
 
 
 ## 🙏 Credits & Inspiration
