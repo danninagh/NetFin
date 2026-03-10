@@ -75,7 +75,7 @@ Sidebar
 
 <img width="2048" height="976" alt="image" src="https://github.com/user-attachments/assets/ee968d48-94dd-4ada-ba43-e83533cc9159" />
 
-# 🙏 Credits & Inspiration
+# ✨ Credits/Inspiration
 
 NetFin is heavily inspired by the incredible work of ElegantFin by lscambo13
 
