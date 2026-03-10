@@ -133,6 +133,81 @@ Paste this into **Jellyfin → Dashboard → General → Custom CSS**
 </details>
 
 ---
+## 🧪 Experimental Add-Ons
+
+These are optional tweaks you can paste **after** the main NetFin import in Jellyfin’s **Custom CSS** box.
+
+### Replace the Jellyfin logo with a custom logo
+
+This add-on hides the default Jellyfin logo and swaps it for your own image in the header area.  
+It follows the same approach used in the attached Matrix/AhmedMedia theme, where the default header logo is hidden and a custom replacement is injected in its place. 
+
+```css
+/* Paste this after the NetFin import */
+
+/* Hide default header logo assets */
+.headerLogo img,
+.headerLogo-withBackground img,
+.logoImage,
+.headerLogo svg {
+  display: none !important;
+}
+
+/* Remove any existing pseudo-logo */
+.headerLogo::after,
+.headerLogo-withBackground::after {
+  display: none !important;
+}
+
+/* Prepare the title container for the custom logo */
+.pageTitle,
+.pageTitleWithDefaultLogo,
+.pageTitleWithLogo {
+  display: inline-flex !important;
+  visibility: visible !important;
+  align-items: center !important;
+  font-size: 0 !important;
+  line-height: 1 !important;
+  overflow: visible !important;
+  min-height: 1.8em !important;
+  margin-left: 8px !important;
+  min-width: max-content !important;
+}
+
+/* Hide the original title text */
+.pageTitle > *,
+.pageTitleWithDefaultLogo > *,
+.pageTitleWithLogo > * {
+  display: none !important;
+}
+
+/* Custom logo image */
+.pageTitle::before,
+.pageTitleWithDefaultLogo::before,
+.pageTitleWithLogo::before {
+  content: "" !important;
+  display: inline-block !important;
+  width: 150px !important;
+  height: 40px !important;
+  background: url("PASTE-YOUR-LOGO-URL-HERE") center / contain no-repeat !important;
+}
+
+/* Make sure no extra text appears */
+.pageTitle::after,
+.pageTitleWithDefaultLogo::after,
+.pageTitleWithLogo::after {
+  content: none !important;
+  display: none !important;
+}
+```
+
+### How to use it
+
+1. Upload your logo somewhere publicly accessible  
+2. Replace `PASTE-YOUR-LOGO-URL-HERE` with the direct image link  
+3. Paste the CSS **after** your NetFin import  
+4. Save and refresh Jellyfin
+
 
 ## 🙏 Credits & Inspiration
 
