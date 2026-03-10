@@ -57,6 +57,7 @@ Paste this into Jellyfin → Dashboard → General → Custom CSS
 
 ```css
 @import url("https://cdn.jsdelivr.net/gh/ya0903/NetFin@main/netfin.css");
+```
 
 # 🖼 Theme Showcase
 
