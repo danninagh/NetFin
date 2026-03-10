@@ -174,6 +174,12 @@ This add-on hides the default Jellyfin logo and swaps it for your own image in t
   min-height: 1.8em !important;
   margin-left: 8px !important;
   min-width: max-content !important;
+
+  /* STOP GLOW EFFECTS */
+  animation: none !important;
+  text-shadow: none !important;
+  box-shadow: none !important;
+  filter: none !important;
 }
 
 /* Hide the original title text */
@@ -192,6 +198,12 @@ This add-on hides the default Jellyfin logo and swaps it for your own image in t
   width: 150px !important;
   height: 40px !important;
   background: url("PASTE-YOUR-LOGO-URL-HERE") center / contain no-repeat !important;
+
+  /* STOP GLOW EFFECTS */
+  animation: none !important;
+  text-shadow: none !important;
+  box-shadow: none !important;
+  filter: none !important;
 }
 
 /* Make sure no extra text appears */
