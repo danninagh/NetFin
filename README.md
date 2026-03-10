@@ -4,6 +4,7 @@
 ██║╚██╗██║██╔══╝     ██║   ██╔══╝  ██║██║╚██╗██║
 ██║ ╚████║███████╗   ██║   ██║     ██║██║ ╚████║
 ╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚═╝     ╚═╝╚═╝  ╚═══╝
+
 🎬 NetFin Theme for Jellyfin
 
 A sleek cinematic Jellyfin theme inspired by modern streaming platforms.
