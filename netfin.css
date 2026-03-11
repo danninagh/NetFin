@@ -1,15 +1,13 @@
 /* ============================================================
    MATRIX RED — Jellyfin Theme
-   Base: ElegantFin v25.12.31 by lscambo13
-   Reskin: Red & Black Matrix Edition
+    Red & Black Matrix Edition
    Compatible: Desktop · Web · TV · Mobile
-   Plugins: MediaBar · HomeSections · MDBList · FileTransformation
-            Playback Reporting · Covers · Intro Skipper · Fanart
+   Plugins: Should work with all plugins
    ============================================================ */
 
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap");
 
-/* ── MATERIAL ICONS (preserved from ElegantFin) ── */
+/* ── MATERIAL ICONS ── */
 @font-face {
   font-family: "Material Icons Round";
   font-style: normal;
@@ -19,7 +17,7 @@
 }
 
 /* ────────────────────────────────────────────────────────────
-   ROOT TOKENS  (ElegantFin structure · Matrix Red values)
+   ROOT TOKENS  (Matrix Red values)
    ──────────────────────────────────────────────────────────── */
 :root {
   --elegantFinFooterText: "Matrix Red";
@@ -227,7 +225,7 @@ body {
 }
 
 /* ============================================================
-   DEFAULT JELLYFIN LOGO RESTORE
+   DEFAULT JELLYFIN LOGO 
    ============================================================ */
 .headerLogo img,
 .headerLogo-withBackground img,
@@ -368,7 +366,7 @@ h2.sectionTitle::after,
 }
 
 /* ============================================================
-   DASHBOARD & SETTINGS — LARGER 
+   DASHBOARD & SETTINGS  
    ============================================================ */
 .settingsPage,.adminPage,.userSettingsPage,.displayPreferencesPage,
 #myPreferencesMenuPage { font-size:1.12rem !important; }
@@ -441,7 +439,7 @@ h2.sectionTitle::after,
 }
 
 /* ────────────────────────────────────────────────────────────
-   CARD GRID — LAYOUT (ElegantFin original, fully preserved)
+   CARD GRID LAYOUT
    ──────────────────────────────────────────────────────────── */
 [dir="ltr"] .itemsContainer > .card > .cardBox {
   margin-left: auto;
@@ -569,7 +567,7 @@ h2.sectionTitle::after,
   transform: scale(1);
 }
 
-/* ── Overlay shimmer (red tint, ElegantFin structure) ── */
+/* ── Overlay shimmer (red tint) ── */
 .cardOverlayContainer {
   transition: .5s;
   background: rgba(204,0,0,.04);
@@ -713,7 +711,7 @@ h2.sectionTitle::after,
   font-size: x-small;
 }
 
-/* ── Episode list grid (ElegantFin original) ── */
+/* ── Episode list grid ── */
 @supports (display: revert) {
   .layout-desktop .vertical-list:has(.listItem-largeImage) {
     display: grid;
@@ -764,7 +762,7 @@ h2.sectionTitle::after,
 }
 
 /* ────────────────────────────────────────────────────────────
-   CARD COUNT BREAKPOINTS (ElegantFin original — untouched)
+   CARD COUNT BREAKPOINTS 
    ──────────────────────────────────────────────────────────── */
 .portraitCard { min-width: 5em; }
 .bannerCard   { --cardCount: 2; }
@@ -864,7 +862,7 @@ h2.sectionTitle::after,
   .backdropCard, .overflowBackdropCard                                      { --cardCount: 2; }
 }
 
-/* ── Card sizing formula (ElegantFin original) ── */
+/* ── Card sizing formula ── */
 .layout-mobile .card {
   --sidePadding: 5%;
 }
@@ -893,7 +891,7 @@ h2.sectionTitle::after,
 }
 
 /* ────────────────────────────────────────────────────────────
-   DETAIL PAGE (ElegantFin original, colours updated)
+   DETAIL PAGE (colours updated)
    ──────────────────────────────────────────────────────────── */
 .detailPageWrapperContainer {
   padding-top: unset;
@@ -1058,7 +1056,7 @@ h2.sectionTitle::after,
 }
 
 /* ────────────────────────────────────────────────────────────
-   ANIMATIONS (ElegantFin original)
+   ANIMATIONS 
    ──────────────────────────────────────────────────────────── */
 @keyframes animMoveDown {
   from { transform: translateY(-2em); opacity: 0; }
@@ -1076,7 +1074,7 @@ h2.sectionTitle::after,
 }
 
 /* ────────────────────────────────────────────────────────────
-   ITEM BACKDROP (ElegantFin original dimensions)
+   ITEM BACKDROP 
    ──────────────────────────────────────────────────────────── */
 .itemBackdrop { display: block !important; }
 
@@ -1637,7 +1635,7 @@ progress + span { color: var(--uiAccentColor) !important; }
 .osdControls { display: flex; flex-direction: column-reverse; }
 
 /* ────────────────────────────────────────────────────────────
-   EXTERNAL LINKS  (coloured by service, ElegantFin original)
+   EXTERNAL LINKS  (coloured by service)
    ──────────────────────────────────────────────────────────── */
 .itemExternalLinks { color: var(--textColor); }
 
@@ -2281,7 +2279,7 @@ div[data-role="controlgroup"] a.ui-btn-active {
 .navMenuOption-selected { background-color: var(--activeColor) !important; }
 
 /* ────────────────────────────────────────────────────────────
-   ITEM DETAIL SECTION GRID (ElegantFin original)
+   ITEM DETAIL SECTION GRID
    ──────────────────────────────────────────────────────────── */
 #itemDetailPage .detailSection {
   display: grid;
@@ -3150,7 +3148,7 @@ ul.MuiList-root.MuiMenu-list.MuiList-dense > div:first-child { gap: .5rem; }
 .skinHeader-withBackground.osdHeader        { background: var(--topOSDGradient); }
 
 /* ────────────────────────────────────────────────────────────
-   HEADER / HEADROOM  (ElegantFin structure · Matrix Red)
+   HEADER / HEADROOM  (Matrix Red)
    ──────────────────────────────────────────────────────────── */
 .headroom { transition: transform .5s; }
 
@@ -3519,7 +3517,7 @@ ul.MuiList-root.MuiMenu-list.MuiList-dense > div:first-child { gap: .5rem; }
   transition: color .18s ease !important;
 }
 
-/* 3. RED PLAY BUTTON (already done above, but ensure consistency) */
+/* 3. RED PLAY BUTTON */
 .cardOverlayContainer > .cardOverlayFab-primary,
 .listItemImageButton,
 .layout-mobile .cardOverlayButton-br:not([data-action="menu"]) > .cardOverlayButtonIcon {
