@@ -12,9 +12,9 @@
 ```
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/ya0903/NetFin?style=for-the-badge" alt="GitHub Stars" />
-  <img src="https://img.shields.io/badge/Jellyfin-10.9%2B-00A4DC?style=for-the-badge" alt="Jellyfin 10.9+" />
-  <img src="https://img.shields.io/badge/Jellyfin-Theme-0f1117?style=for-the-badge" alt="Jellyfin Theme" />
+  <img src="https://img.shields.io/github/stars/ya0903/NetFin?style=flat&color=E50914&labelColor=111111" />
+  <img src="https://img.shields.io/badge/Jellyfin-Compatible-flat&color=00A4DC&labelColor=111111" />
+  <img src="https://img.shields.io/badge/Type-Theme-flat&color=E50914&labelColor=111111" />
 </p>
 
 # 🎬 NetFin Theme for Jellyfin
