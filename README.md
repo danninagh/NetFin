@@ -249,6 +249,7 @@ NetFin builds upon those design principles while introducing its own darker cine
 
 If you enjoy NetFin, consider supporting the ElegantFin project.
 
+⭐ If you use NetFin, consider starring the repository to support development.
 ---
 
 ### 🎥 Enjoy your media in cinematic style with NetFin
