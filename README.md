@@ -238,6 +238,59 @@ Below is an example of how NetFin looks on the Jellyfin home screen once install
 
 </details>
 
+<details>
+<summary><strong>Mobile Buttons Size Addjustment</strong></summary>
+
+<br>
+
+This add-on hides the default Jellyfin logo and swaps it for your own image in the header area.
+
+```css
+/* ================= MOBILE TOUCH FIX ================= */
+
+  /* Top left menu button */
+  .headerButton,
+  .headerButton.headerButtonLeft,
+  .headerButton.headerButtonRight {
+      width: 36px !important;
+      height: 36px !important;
+      min-width: 36px !important;
+      min-height: 36px !important;
+      margin: 0 6px !important;
+  }
+
+  /* Icons inside header buttons */
+  .headerButton i,
+  .headerButton .material-icons,
+  .headerButton .material-icons-round {
+      font-size: 26px !important;
+  }
+
+  /* Profile picture tap area */
+  .headerUserButton {
+      width: 36px !important;
+      height: 36px !important;
+  }
+
+  .headerUserButton img {
+      width: 36px !important;
+      height: 36px !important;
+  }
+
+  /* Cast & group watch buttons */
+  .headerCastButton,
+  .headerSyncButton {
+      width: 36px !important;
+      height: 36px !important;
+  }
+```
+### How to use it
+1. Copy and paste underneath NetFin import
+2. Adjust px for each according to your tastes
+3. Save and refresh Jellyfin
+
+</details>
+
 ## 🙏 Credits & Inspiration
 
 NetFin is heavily inspired by the incredible work of  
