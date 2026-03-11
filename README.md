@@ -243,7 +243,7 @@ Below is an example of how NetFin looks on the Jellyfin home screen once install
 
 <br>
 
-This add-on hides the default Jellyfin logo and swaps it for your own image in the header area.
+This add-on adjusts the size of the touch buttons on mobile devices.
 
 ```css
 /* ================= MOBILE TOUCH FIX ================= */
