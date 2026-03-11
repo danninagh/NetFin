@@ -239,7 +239,7 @@ Below is an example of how NetFin looks on the Jellyfin home screen once install
 </details>
 
 <details>
-<summary><strong>Mobile Buttons Size Addjustment</strong></summary>
+<summary><strong>Mobile Buttons Size Adjustment</strong></summary>
 
 <br>
 
