@@ -169,10 +169,10 @@ This add-on hides the default Jellyfin logo and swaps it for your own image in t
   display: none !important;
 }
 
-/* Prepare the title container for the custom logo */
-.pageTitle,
-.pageTitleWithDefaultLogo,
-.pageTitleWithLogo {
+/* Prepare the title container — NOT during playback */
+:not(.osdHeader) .pageTitle,
+:not(.osdHeader) .pageTitleWithDefaultLogo,
+:not(.osdHeader) .pageTitleWithLogo {
   display: inline-flex !important;
   visibility: visible !important;
   align-items: center !important;
@@ -180,44 +180,72 @@ This add-on hides the default Jellyfin logo and swaps it for your own image in t
   line-height: 1 !important;
   overflow: visible !important;
   min-height: 1.8em !important;
-  margin-left: 8px !important;
+  margin-left: 8px !important;  /* ← shift whole logo LEFT/RIGHT */
+  margin-top: 0px !important;   /* ← shift whole logo UP/DOWN */
   min-width: max-content !important;
-
-  /* STOP GLOW EFFECTS */
   animation: none !important;
   text-shadow: none !important;
   box-shadow: none !important;
   filter: none !important;
 }
 
-/* Hide the original title text */
-.pageTitle > *,
-.pageTitleWithDefaultLogo > *,
-.pageTitleWithLogo > * {
+/* Hide the original title text — NOT during playback */
+:not(.osdHeader) .pageTitle > *,
+:not(.osdHeader) .pageTitleWithDefaultLogo > *,
+:not(.osdHeader) .pageTitleWithLogo > * {
   display: none !important;
 }
 
-/* Custom logo image */
-.pageTitle::before,
-.pageTitleWithDefaultLogo::before,
-.pageTitleWithLogo::before {
+/* Custom logo image — NOT during playback */
+:not(.osdHeader) .pageTitle::before,
+:not(.osdHeader) .pageTitleWithDefaultLogo::before,
+:not(.osdHeader) .pageTitleWithLogo::before {
   content: "" !important;
   display: inline-block !important;
-  width: 150px !important;
-  height: 40px !important;
+  width: 150px !important;   /* ← logo width */
+  height: 40px !important;   /* ← logo height */
+  position: relative !important;
+  top: 0px !important;       /* ← fine-tune vertical (+down / -up) */
+  left: 0px !important;      /* ← fine-tune horizontal (+right / -left) */
   background: url("PASTE-YOUR-LOGO-URL-HERE") center / contain no-repeat !important;
-
-  /* STOP GLOW EFFECTS */
   animation: none !important;
   text-shadow: none !important;
   box-shadow: none !important;
   filter: none !important;
 }
 
-/* Make sure no extra text appears */
-.pageTitle::after,
-.pageTitleWithDefaultLogo::after,
-.pageTitleWithLogo::after {
+/* No extra text after logo — NOT during playback */
+:not(.osdHeader) .pageTitle::after,
+:not(.osdHeader) .pageTitleWithDefaultLogo::after,
+:not(.osdHeader) .pageTitleWithLogo::after {
+  content: none !important;
+  display: none !important;
+}
+
+/* ── Restore OSD header title during playback ── */
+.osdHeader .pageTitle,
+.osdHeader .pageTitleWithDefaultLogo,
+.osdHeader .pageTitleWithLogo {
+  display: flex !important;
+  font-size: unset !important;
+  visibility: visible !important;
+  min-width: unset !important;
+  animation: none !important;
+  filter: none !important;
+}
+
+.osdHeader .pageTitle > *,
+.osdHeader .pageTitleWithDefaultLogo > *,
+.osdHeader .pageTitleWithLogo > * {
+  display: unset !important;
+}
+
+.osdHeader .pageTitle::before,
+.osdHeader .pageTitle::after,
+.osdHeader .pageTitleWithDefaultLogo::before,
+.osdHeader .pageTitleWithDefaultLogo::after,
+.osdHeader .pageTitleWithLogo::before,
+.osdHeader .pageTitleWithLogo::after {
   content: none !important;
   display: none !important;
 }
@@ -228,9 +256,10 @@ This add-on hides the default Jellyfin logo and swaps it for your own image in t
 1. Upload your logo somewhere publicly accessible  
 2. Replace `PASTE-YOUR-LOGO-URL-HERE` with the direct image link  
 3. Paste the CSS **after** your NetFin import  
-4. Save and refresh Jellyfin
+4. Use top and left to finetune logo position  
+5. Save and refresh Jellyfin
 
-NETFIN logo is available in NetFin/assets/netfin-logo
+NETFIN logo is available in NetFin/assets/netfin-logo - https://raw.githubusercontent.com/ya0903/NetFin/main/Assets/netfin-logo.png
 
 </details>
 <details>
