@@ -339,5 +339,6 @@ If you enjoy NetFin, consider supporting the ElegantFin project.
 
 ⭐ If you use NetFin, consider starring the repository to support development.
 ---
+Any requests please create an issue thank you
 
 ### 🎥 Enjoy your media in cinematic style with NetFin
